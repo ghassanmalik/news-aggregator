@@ -18,7 +18,7 @@
 
 ## Installation
 ```sh
-git clone https://github.com/yourusername/news-aggregator.git
+git clone https://github.com/ghassanmalik/news-aggregator.git
 cd news-aggregator
 ```
 
