@@ -1,0 +1,38 @@
+@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /*color: black;*/
+  /*background-color: white;*/
+
+  /*color-scheme: light dark;*/
+  color: inherit;
+  background-color: #f7f7f7;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*body {*/
+/*  font-family: "Inter", sans-serif;*/
+/*}*/
+
+input, select, textarea button{
+  @apply bg-white text-gray-900 border border-gray-300 cursor-pointer
+  hover:border-gray-500 focus:border-gray-500
+  focus:ring-1 focus:ring-gray-500;
+}
+
+input[type="date"] {
+  background-color: #f7f7f7 !important;
+  /*color: black; !* Adjust text color *!*/
+}

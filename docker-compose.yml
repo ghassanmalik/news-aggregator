@@ -1,0 +1,11 @@
+services:
+  frontend:
+    build: .
+    ports:
+      - "3000:3000"  # Map Vite's 3000 to host's 8080
+    volumes:
+      - .:/app
+      - /app/node_modules  # Prevents overwriting node_modules
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    command: ["yarn", "dev"]  # Run Vite with Yarn
