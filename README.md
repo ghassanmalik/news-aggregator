@@ -17,10 +17,7 @@
 - **Docker Compose**
 
 ## Installation
-```sh
-git clone https://github.com/ghassanmalik/news-aggregator.git
-cd news-aggregator
-```
+- Clone the repository
 
 ## Running
 ### Docker Compose
