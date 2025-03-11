@@ -31,7 +31,6 @@ docker-compose down
 
 ### Local (No Docker)
 ```sh
-cd frontend
 npm install
 npm run dev
 ```
